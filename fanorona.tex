@@ -30,7 +30,7 @@
   }
   
   \foreach \x [evaluate=\x as \px using int(\x-1),
-  evaluate=\px as \ppx using int(\px-1)] in {3, 5, ..., 8}{
+  evaluate=\px as \ppx using int(\px-1)] in {3, 5, ..., 9}{
     \foreach \y [evaluate=\y as \sy using int(\y+1),
     evaluate=\sy as \ssy using int(\sy+1)] in {1, 3}{
       \draw (\x\y)--(\px\sy) (\px\sy)--(\ppx\ssy);
@@ -59,7 +59,12 @@
   
   \foreach \x in {2, 4, 7, 9}
   \nodec{\x}{3}{black};
-    
+
+  % \trace{52}{53};
+  % \nodec{5}{4}{red};
+  % \nodec{5}{5}{red};
+
+  
 \end{tikzpicture}
 \end{document}
 
