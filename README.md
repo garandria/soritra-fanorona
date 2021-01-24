@@ -19,36 +19,46 @@ will build a `.png` file. If you want a `pdf` file, run `make pdf`.
 
 ## Examples
 
-### Board
+### Fanorontelo
 
-The *FANORONA* variant is *Fanoron-tsivy*.
+##### Empty board
 
-#### Empty board
+![Fanorontelo](img/fanorontelo.png)
+
+### Fanorondimy
+
+##### Empty board
+
+![Fanorondimy](img/fanorondimy.png)
+
+### Fanorontsivy
+
+##### Empty board
 
 ![Laka-panoron-tsivy](img/laka.png)
 
-#### Board with pieces
+##### Board with pieces
 
 ![Fanoron-tsivy](img/fanoron-tsivy.png)
 
-### Openings
+#### Openings
 
-#### Vaky Loha
+##### Vaky Loha
 
 ![Vaky loha](img/vaky_loha.png)
 
-#### Havia
+##### Havia
 
 ![Havia](img/havia.png)
 
-#### Havanana
+##### Havanana
 
 ![Havanana](img/havanana.png)
 
-#### Kobaka lava
+##### Kobaka lava
 
 ![Kobaka lava](img/kobaka_lava.png)
 
-#### Kobaka fohy (fohy)
+##### Kobaka fohy (fohy)
 
 ![Kobaka fohy](img/kobaka_fohy.png)
