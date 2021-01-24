@@ -25,11 +25,19 @@ will build a `.png` file. If you want a `pdf` file, run `make pdf`.
 
 ![Fanorontelo](img/fanorontelo.png)
 
+##### Board with pieces
+
+![Fanorontelo-lahy](img/fanorontelo-lahy.png)
+
 ### Fanorondimy
 
 ##### Empty board
 
 ![Fanorondimy](img/fanorondimy.png)
+
+##### Board with pieces
+
+![Fanorondimy-lahy](img/fanorondimy-lahy.png)
 
 ### Fanorontsivy
 
