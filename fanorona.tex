@@ -7,11 +7,16 @@
 
 % Dead node -- crossed out in red
 \newcommand{\dnode}[3]{
-  \nodec{#1}{#2}{#3}
+  \nodec{#1}{#2}{#3};
   \node[cross out, draw, thick, color=red] at (1.5*#1,1.5*#2) {};
 }
 
-\newcommand{\trace}[2]{\draw[->, dotted, line width=0.1cm, red] (#1)--(#2);}
+% Trace with a label \tracel{xy}{x'y'}{label}{left|right|above|bottom};
+% \trace{xy}{x'y'}{}{}; without label on the arrow
+\newcommand{\tracel}[4]{
+  \draw[->, dotted, line width=0.1cm, red] (#1)--(#2)
+  node[#4, midway]{\textbf{#3}};
+}
 
 % laka(length, height, size)
 \newcommand{\laka}[3]{
