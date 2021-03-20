@@ -10,13 +10,6 @@ If you speak and write malagasy very well, I encourage you to
 contribute to the [malagasy version of
 wikipedia](https://mg.wikipedia.org/wiki/Wikipedia:Fandraisana).
 
-
-## Compile
-
-There is a Makefile. The first rule is `png` so the command `make`
-will build a `.png` file. If you want a `pdf` file, run `make pdf`.
-
-
 ## Examples
 
 ![lakampanorontelo](img/lakampanorontelo.png)
