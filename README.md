@@ -19,54 +19,32 @@ will build a `.png` file. If you want a `pdf` file, run `make pdf`.
 
 ## Examples
 
-### Fanorontelo
+![lakampanorontelo](img/lakampanorontelo.png)
+![fanorontelo](img/fanorontelo.png)
 
-##### Empty board
+![lakampanorondimy](img/lakampanorondimy.png)
+![fanorondimy](img/fanorondimy.png)
 
-![Fanorontelo](img/fanorontelo.png)
+![lakampanorontsivy](img/lakampanorontsivy.png)
+![fanorontsivy](img/fanorontsivy.png)
+![vaky_loha](img/vaky_loha.png)
+![kobaka_fohy](img/kobaka_fohy.png)
+![kobaka_lava](img/kobaka_lava.png)
+![havanana](img/havanana.png)
+![havia](img/havia.png)	
 
-##### Board with pieces
-
-![Fanorontelo-lahy](img/fanorontelo-lahy.png)
-
-### Fanorondimy
-
-##### Empty board
-
-![Fanorondimy](img/fanorondimy.png)
-
-##### Board with pieces
-
-![Fanorondimy-lahy](img/fanorondimy-lahy.png)
-
-### Fanorontsivy
-
-##### Empty board
-
-![Laka-panoron-tsivy](img/laka.png)
-
-##### Board with pieces
-
-![Fanoron-tsivy](img/fanoron-tsivy.png)
-
-#### Openings
-
-##### Vaky Loha
-
-![Vaky loha](img/vaky_loha.png)
-
-##### Havia
-
-![Havia](img/havia.png)
-
-##### Havanana
-
-![Havanana](img/havanana.png)
-
-##### Kobaka lava
-
-![Kobaka lava](img/kobaka_lava.png)
-
-##### Kobaka fohy (fohy)
-
-![Kobaka fohy](img/kobaka_fohy.png)
+![mandroso](img/mandroso.png)
+![mikileva](img/mikileva.png)
+![mihemotra](img/mihemotra.png)
+![miriana](img/miriana.png)
+![mielatra](img/mielatra.png)
+![mihazakazaka](img/mihazakazaka.png)
+![miforitra](img/miforitra.png)
+![midona](img/midona.png)
+![mivadika](img/mivadika.png)
+![migemo](img/migemo.png)
+![miampify](img/miampify.png)
+![manenjana](img/manenjana.png)
+![mamoina](img/mamoina.png)
+![mikizo](img/mikizo.png)
+![mitsindrona](img/mitsindrona.png)
