@@ -2,20 +2,66 @@
 
 
 \newcommand{\nodec}[3]{\node[circle,draw,minimum size=20, fill=#3] (#1#2) at (1.5*#1,1.5*#2) {};}
+
 \newcommand{\trace}[2]{\draw[->, dotted, line width=0.1cm, red] (#1)--(#2);}
 
-\usepackage{tikz}
+% laka(length, height, size)
+\newcommand{\laka}[3]{
+  \foreach \x in {1, ..., #1}
+  \foreach \y in {1, ..., #2}
+  \node[circle, draw] (\x\y) at (#3*\x, #3*\y) {};
+}
 
-\begin{document}
+\newcommand{\fanorontelo}{  
+  \laka{3}{3}{1.5};
+  
+  \foreach \x [evaluate=\x as \sx using int(\x+1)] in {1, 2}
+  \foreach \y  in {1, ..., 3}
+  \draw (\x\y)--(\sx\y);
 
-\begin{tikzpicture}
-  \foreach \x in {1, ..., 9}
-  \foreach \y in {1, ..., 5}
-  \node[circle, draw] (\x\y) at (1.5*\x, 1.5*\y) {};
+  \foreach \y [evaluate=\y as \sy using int(\y+1)] in {1, 2}
+  \foreach \x in {1, ..., 3}
+  \draw (\x\y)--(\x\sy);
 
+  \draw (11)--(22) (22)--(33);
+  \draw (13)--(22) (22)--(31);
+
+}
+
+\newcommand{\fanorondimy}{
+  \laka{5}{5}{1.5};
+  
+  \foreach \x [evaluate=\x as \sx using int(\x+1)] in {1, ..., 4}
+  \foreach \y  in {1, ..., 5}
+  \draw (\x\y)--(\sx\y);
+
+  \foreach \y [evaluate=\y as \sy using int(\y+1)] in {1, ..., 4}
+  \foreach \x in {1, ..., 5}
+  \draw (\x\y)--(\x\sy);
+
+  \foreach \x [evaluate=\x as \sx using int(\x+1),
+  evaluate=\sx as \ssx using int(\sx+1)] in {1, 3}{
+    \foreach \y [evaluate=\y as \sy using int(\y+1),
+    evaluate=\sy as \ssy using int(\sy+1)] in {1, 3, ..., 4}{
+      \draw (\x\y)--(\sx\sy) (\sx\sy)--(\ssx\ssy);
+    }
+  }
+  
+  \foreach \x [evaluate=\x as \px using int(\x-1),
+  evaluate=\px as \ppx using int(\px-1)] in {3, 5}{
+    \foreach \y [evaluate=\y as \sy using int(\y+1),
+    evaluate=\sy as \ssy using int(\sy+1)] in {1, 3}{
+      \draw (\x\y)--(\px\sy) (\px\sy)--(\ppx\ssy);
+    }
+  }
+}
+
+\newcommand{\fanorontsivy}{
+  \laka{9}{5}{1.5};
+  
   \foreach \x [evaluate=\x as \sx using int(\x+1)] in {1, ..., 8}
-    \foreach \y  in {1, ..., 5}
-    \draw (\x\y)--(\sx\y);
+  \foreach \y  in {1, ..., 5}
+  \draw (\x\y)--(\sx\y);
 
   \foreach \y [evaluate=\y as \sy using int(\y+1)] in {1, ..., 4}
   \foreach \x in {1, ..., 9}
@@ -36,29 +82,70 @@
       \draw (\x\y)--(\px\sy) (\px\sy)--(\ppx\ssy);
     }
   }  
+}
 
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+  % \fanorontelo{};
+
+  % \nodec{1}{2}{gray};
+  % \nodec{1}{3}{gray};
+  % \nodec{2}{3}{gray};
+  % \nodec{3}{3}{gray};
+  % \nodec{1}{1}{black};
+  % \nodec{2}{1}{black};
+  % \nodec{3}{1}{black};
+  % \nodec{3}{2}{black};
+
+  \fanorondimy{};
+  \node[circle,draw,fill=red] (11) at (1.5*1,1.5*1) {};
+
+  % % Player 1
+  % % --------
+  
+  % \foreach \x in {1, ..., 5}
+  % \foreach \y in {4, 5}
+  % \nodec{\x}{\y}{gray};
+
+  % \foreach \x in {1, 4}
+  % \nodec{\x}{3}{gray};
+
+  % % Player 2
+  % % -----------
+  
+  % \foreach \x in {1, ..., 5}
+  % \foreach \y in {1, 2}
+  % \nodec{\x}{\y}{black};
+  
+  % \foreach \x in {2, 5}
+  % \nodec{\x}{3}{black};
+  
+  
   % Add players
   % -----------
   
   % Player 1
   % --------
   
-  \foreach \x in {1, ..., 9}
-  \foreach \y in {4, 5}
-  \nodec{\x}{\y}{gray};
+  % \foreach \x in {1, ..., 9}
+  % \foreach \y in {4, 5}
+  % \nodec{\x}{\y}{gray};
   
-  \foreach \x in {1, 3, 6, 8}
-  \nodec{\x}{3}{gray};
+  % \foreach \x in {1, 3, 6, 8}
+  % \nodec{\x}{3}{gray};
 
   % Player 2
   % -----------
   
-  \foreach \x in {1, ..., 9}
-  \foreach \y in {1, 2}
-  \nodec{\x}{\y}{black};
+  % \foreach \x in {1, ..., 9}
+  % \foreach \y in {1, 2}
+  % \nodec{\x}{\y}{black};
   
-  \foreach \x in {2, 4, 7, 9}
-  \nodec{\x}{3}{black};
+  % \foreach \x in {2, 4, 7, 9}
+  % \nodec{\x}{3}{black};
 
   % Fitaritana
   % ==========
@@ -86,7 +173,11 @@
   % Kobaka fohy
   % \trace{63}{53};
   % \nodec{4}{3}{red};
-  
+
+
+  % \trace{52}{53}
+  % \trace{53}{64}
+  % \trace{64}{63}
   
 \end{tikzpicture}
 \end{document}
