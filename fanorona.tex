@@ -12,7 +12,7 @@
 }
 
 % Trace with a label \tracel{xy}{x'y'}{label}{left|right|above|bottom};
-% \trace{xy}{x'y'}{}{}; without label on the arrow
+% \tracel{xy}{x'y'}{}{}; without label on the arrow
 \newcommand{\tracel}[4]{
   \draw[->, dotted, line width=0.1cm, red] (#1)--(#2)
   node[#4, midway]{\textbf{#3}};
@@ -174,37 +174,37 @@
 
   % Vaky Loha
   % *********
-  % \trace{52}{53};
+  % \tracel{52}{53}{}{};
   % \dnode{5}{4}{gray};
   % \dnode{5}{5}{gray};
   
   % Havanana
   % ********  
-  % \trace{42}{53};
+  % \tracel{42}{53}{}{};
   % \dnode{6}{4}{gray};
   % \dnode{7}{5}{gray};
 
   % Havia
   % *****  
-  % \trace{62}{53};
+  % \tracel{62}{53}{}{};
   % \dnode{4}{4}{gray};
   % \dnode{3}{5}{gray};
 
   % Kobaka lava
   % ***********
-  % \trace{63}{53};
+  % \tracel{63}{53}{}{};
   % \dnode{7}{3}{black};
 
   
   % Kobaka fohy
   % ***********
-  % \trace{63}{53};
+  % \tracel{63}{53}{}{};
   % \dnode{4}{3}{black};
 
 
-  % \trace{52}{53}
-  % \trace{53}{64}
-  % \trace{64}{63}    
+  % \tracel{52}{53}{}{};
+  % \tracel{53}{64}{}{};
+  % \tracel{64}{63}{}{};
 
 
   % MIDONA
@@ -215,7 +215,7 @@
   % \dnode{6}{5}{gray};
   % \nodec{6}{2}{black};
   % \nodec{8}{1}{black};
-  % \trace{62}{63};
+  % \tracel{62}{63}{}{};
 
   % MIGEMO / MIKEMO
   % ***************
@@ -224,7 +224,7 @@
   % \dnode{6}{4}{black};
   % \nodec{6}{3}{gray};
   % \nodec{8}{1}{black};
-  % \trace{63}{62};
+  % \tracel{63}{62}{}{};
 
   % MANENJANA
   % *********
@@ -234,7 +234,7 @@
   % \dnode{7}{5}{gray};
   % \nodec{5}{3}{black};
   % \nodec{8}{1}{black};
-  % \trace{53}{42};
+  % \tracel{53}{42}{}{};
 
   % MIELATRA
   % ********
@@ -243,7 +243,7 @@
   % \dnode{7}{3}{black};
   % \nodec{5}{3}{gray};
   % \nodec{8}{1}{gray};
-  % \trace{53}{43};
+  % \tracel{53}{43}{}{};
 
   % MIRIANA
   % *******
@@ -254,7 +254,7 @@
   % \nodec{8}{1}{gray};
   % \nodec{5}{2}{black};
   % \nodec{3}{3}{gray};
-  % \trace{81}{82};
+  % \tracel{81}{82}{}{};
 
   % MITSINDRONA
   % ***********
@@ -264,7 +264,7 @@
   % \nodec{2}{3}{gray};
   % \dnode{6}{4}{gray};
   % \dnode{7}{5}{gray};
-  % \trace{42}{53};
+  % \tracel{42}{53}{}{};
 
   % MIFORITRA
   % *********
