@@ -78,8 +78,8 @@ wikipedia](https://mg.wikipedia.org/wiki/Wikipedia:Fandraisana).
 ### Mamoina
 ![mamoina](img/mamoina.png)
 
-
+### Mikizo
 ![mikizo](img/mikizo.png)
 
-
+### Mitsindrona
 ![mitsindrona](img/mitsindrona.png)
