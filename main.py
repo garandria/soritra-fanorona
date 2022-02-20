@@ -115,7 +115,7 @@ T =\
 """
 
 def main():
-    os.system("cat pos.py | grep \"def .*()\" | tr -d ':' > fn.txt")
+    os.system("egrep \"def .*()\" pos.py | tr -d ':' > fn.txt")
     fcts = []
     with open("fn.txt", 'r') as fntxt:
         for fn in fntxt:
