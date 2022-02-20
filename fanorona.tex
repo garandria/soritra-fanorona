@@ -22,7 +22,7 @@
 \newcommand{\laka}[3]{
   \foreach \x in {1, ..., #1}
   \foreach \y in {1, ..., #2}
-  \node[circle, draw] (\x\y) at (#3*\x, #3*\y) {};
+  \node[circle, inner sep=0pt, outer sep=0pt, fill] (\x\y) at (#3*\x, #3*\y) {};
 }
 
 \newcommand{\fanorontelo}{  
