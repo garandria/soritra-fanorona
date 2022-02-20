@@ -3,7 +3,9 @@
 \usetikzlibrary{shapes,snakes}
 
 % Vato
-\newcommand{\nodec}[3]{\node[circle,draw,minimum size=20, fill=#3] (#1#2) at (1.5*#1,1.5*#2) {};}
+\newcommand{\nodec}[3]{
+  \node[circle,draw,minimum size=20, fill=#3] (#1#2) at (1.5*#1,1.5*#2) {};
+}
 
 % Dead node -- crossed out in red
 \newcommand{\dnode}[3]{
