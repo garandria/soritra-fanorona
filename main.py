@@ -27,12 +27,12 @@ H =\
 \\newcommand{\\laka}[3]{
   \\foreach \\x in {1, ..., #1}
   \\foreach \\y in {1, ..., #2}
-  \\node[circle, draw] (\\x\\y) at (#3*\\x, #3*\\y) {};
+  \\node[circle, inner sep=0pt, outer sep=0pt, fill] (\\x\\y) at (#3*\\x, #3*\\y) {};
 }
 
-\\newcommand{\\fanorontelo}{  
+\\newcommand{\\fanorontelo}{
   \\laka{3}{3}{1.5};
-  
+
   \\foreach \\x [evaluate=\\x as \\sx using int(\\x+1)] in {1, 2}
   \\foreach \\y  in {1, ..., 3}
   \\draw (\\x\\y)--(\\sx\\y);
