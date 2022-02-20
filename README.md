@@ -10,63 +10,76 @@ If you speak and write malagasy very well, I encourage you to
 contribute to the [malagasy version of
 wikipedia](https://mg.wikipedia.org/wiki/Wikipedia:Fandraisana).
 
-
-## Compile
-
-There is a Makefile. The first rule is `png` so the command `make`
-will build a `.png` file. If you want a `pdf` file, run `make pdf`.
-
-
 ## Examples
 
 ### Fanorontelo
-
-##### Empty board
-
-![Fanorontelo](img/fanorontelo.png)
-
-##### Board with pieces
-
-![Fanorontelo-lahy](img/fanorontelo-lahy.png)
+![lakampanorontelo](img/lakampanorontelo.pdf)
+![fanorontelo](img/fanorontelo.pdf)
 
 ### Fanorondimy
-
-##### Empty board
-
-![Fanorondimy](img/fanorondimy.png)
-
-##### Board with pieces
-
-![Fanorondimy-lahy](img/fanorondimy-lahy.png)
+![lakampanorondimy](img/lakampanorondimy.pdf)
+![fanorondimy](img/fanorondimy.pdf)
 
 ### Fanorontsivy
+![lakampanorontsivy](img/lakampanorontsivy.pdf)
+![fanorontsivy](img/fanorontsivy.pdf)
 
-##### Empty board
+### Vaky Loha
+![vaky_loha](img/vaky_loha.pdf)
 
-![Laka-panoron-tsivy](img/laka.png)
+### Kobaka fohy
+![kobaka_fohy](img/kobaka_fohy.pdf)
 
-##### Board with pieces
+### Kobaka lava
+![kobaka_lava](img/kobaka_lava.pdf)
 
-![Fanoron-tsivy](img/fanoron-tsivy.png)
+### Havanana
+![havanana](img/havanana.pdf)
 
-#### Openings
+### Havia
+![havia](img/havia.pdf)	
 
-##### Vaky Loha
+### Mandroso
+![mandroso](img/mandroso.pdf)
 
-![Vaky loha](img/vaky_loha.png)
+### Mikileva
+![mikileva](img/mikileva.pdf)
 
-##### Havia
+### Mihemotra
+![mihemotra](img/mihemotra.pdf)
 
-![Havia](img/havia.png)
+### Miriana
+![miriana](img/miriana.pdf)
 
-##### Havanana
+### Mielatra
+![mielatra](img/mielatra.pdf)
 
-![Havanana](img/havanana.png)
+### Mihazakazaka
+![mihazakazaka](img/mihazakazaka.pdf)
 
-##### Kobaka lava
+### Miforitra
+![miforitra](img/miforitra.pdf)
 
-![Kobaka lava](img/kobaka_lava.png)
+### Midona
+![midona](img/midona.pdf)
 
-##### Kobaka fohy (fohy)
+### Mivadika
+![mivadika](img/mivadika.pdf)
 
-![Kobaka fohy](img/kobaka_fohy.png)
+### Migemo
+![migemo](img/migemo.pdf)
+
+### Miampify
+![miampify](img/miampify.pdf)
+
+### Manenjana
+![manenjana](img/manenjana.pdf)
+
+### Mamoina
+![mamoina](img/mamoina.pdf)
+
+### Mikizo
+![mikizo](img/mikizo.pdf)
+
+### Mitsindrona
+![mitsindrona](img/mitsindrona.pdf)
