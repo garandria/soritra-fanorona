@@ -117,12 +117,12 @@ T =\
 def main():
     os.system("egrep \"def .*()\" pos.py | tr -d ':' > fn.txt")
     fcts = []
-    with open("fn.txt", 'r') as fntxt:
+    with open("fn.txt", 'r', encoding='utf-8') as fntxt:
         for fn in fntxt:
             fcts.append(fn[4:-3])
     for fct in fcts:
         texfile = "{}.tex".format(fct)
-        with open(texfile, 'w') as tex:
+        texfile = f"{fct}.tex"
             tex.write(H + eval(fct + "()") + T)
         os.system("latexmk {} -shell-escape".format(texfile))
         os.system("rm {}.*".format(texfile))
