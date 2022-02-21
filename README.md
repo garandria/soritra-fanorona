@@ -13,73 +13,73 @@ wikipedia](https://mg.wikipedia.org/wiki/Wikipedia:Fandraisana).
 ## Examples
 
 ### Fanorontelo
-![lakampanorontelo](img/lakampanorontelo.pdf)
-![fanorontelo](img/fanorontelo.pdf)
+![lakampanorontelo](img/lakampanorontelo.png)
+![fanorontelo](img/fanorontelo.png)
 
 ### Fanorondimy
-![lakampanorondimy](img/lakampanorondimy.pdf)
-![fanorondimy](img/fanorondimy.pdf)
+![lakampanorondimy](img/lakampanorondimy.png)
+![fanorondimy](img/fanorondimy.png)
 
 ### Fanorontsivy
-![lakampanorontsivy](img/lakampanorontsivy.pdf)
-![fanorontsivy](img/fanorontsivy.pdf)
+![lakampanorontsivy](img/lakampanorontsivy.png)
+![fanorontsivy](img/fanorontsivy.png)
 
 ### Vaky Loha
-![vaky_loha](img/vaky_loha.pdf)
+![vaky_loha](img/vaky_loha.png)
 
 ### Kobaka fohy
-![kobaka_fohy](img/kobaka_fohy.pdf)
+![kobaka_fohy](img/kobaka_fohy.png)
 
 ### Kobaka lava
-![kobaka_lava](img/kobaka_lava.pdf)
+![kobaka_lava](img/kobaka_lava.png)
 
 ### Havanana
-![havanana](img/havanana.pdf)
+![havanana](img/havanana.png)
 
 ### Havia
-![havia](img/havia.pdf)	
+![havia](img/havia.png)	
 
 ### Mandroso
-![mandroso](img/mandroso.pdf)
+![mandroso](img/mandroso.png)
 
 ### Mikileva
-![mikileva](img/mikileva.pdf)
+![mikileva](img/mikileva.png)
 
 ### Mihemotra
-![mihemotra](img/mihemotra.pdf)
+![mihemotra](img/mihemotra.png)
 
 ### Miriana
-![miriana](img/miriana.pdf)
+![miriana](img/miriana.png)
 
 ### Mielatra
-![mielatra](img/mielatra.pdf)
+![mielatra](img/mielatra.png)
 
 ### Mihazakazaka
-![mihazakazaka](img/mihazakazaka.pdf)
+![mihazakazaka](img/mihazakazaka.png)
 
 ### Miforitra
-![miforitra](img/miforitra.pdf)
+![miforitra](img/miforitra.png)
 
 ### Midona
-![midona](img/midona.pdf)
+![midona](img/midona.png)
 
 ### Mivadika
-![mivadika](img/mivadika.pdf)
+![mivadika](img/mivadika.png)
 
 ### Migemo
-![migemo](img/migemo.pdf)
+![migemo](img/migemo.png)
 
 ### Miampify
-![miampify](img/miampify.pdf)
+![miampify](img/miampify.png)
 
 ### Manenjana
-![manenjana](img/manenjana.pdf)
+![manenjana](img/manenjana.png)
 
 ### Mamoina
-![mamoina](img/mamoina.pdf)
+![mamoina](img/mamoina.png)
 
 ### Mikizo
-![mikizo](img/mikizo.pdf)
+![mikizo](img/mikizo.png)
 
 ### Mitsindrona
-![mitsindrona](img/mitsindrona.pdf)
+![mitsindrona](img/mitsindrona.png)
