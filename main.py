@@ -124,10 +124,11 @@ def main():
         texfile = "{}.tex".format(fct)
         texfile = f"{fct}.tex"
             tex.write(H + eval(fct + "()") + T)
-        os.system("latexmk {} -shell-escape".format(texfile))
-        os.system("rm {}.*".format(texfile))
-    os.system("mv *.png image")
-    
+        os.system(f"pdflatex -shell-escape {texfile}")
+    os.system("mv *.png img/ && git add img/ && git commit -m \"generate new images\"")
+    os.system("git clean -dfx")
+
+
 if __name__ == "__main__":
     main()
 
