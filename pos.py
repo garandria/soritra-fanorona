@@ -91,6 +91,13 @@ def havanana():
     \\dnode{7}{5}{white};
     """
 
+def havia():
+    return fanorontsivy() +  """
+    \\tracel{62}{63}{}{};
+    \\dnode{4}{4}{white};
+    \\dnode{3}{5}{white};
+    """
+
 def kobaka_lava():
     return fanorontsivy() +  """
     \\tracel{63}{53}{}{};
