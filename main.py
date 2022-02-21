@@ -92,14 +92,14 @@ H =\
       \\draw (\\x\\y)--(\\sx\\sy) (\\sx\\sy)--(\\ssx\\ssy);
     }
   }
-  
+
   \\foreach \\x [evaluate=\\x as \\px using int(\\x-1),
   evaluate=\\px as \\ppx using int(\\px-1)] in {3, 5, ..., 9}{
     \\foreach \\y [evaluate=\\y as \\sy using int(\\y+1),
     evaluate=\\sy as \\ssy using int(\\sy+1)] in {1, 3}{
       \\draw (\\x\\y)--(\\px\\sy) (\\px\\sy)--(\\ppx\\ssy);
     }
-  }  
+  }
 }
 
 
