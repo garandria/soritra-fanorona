@@ -3,7 +3,7 @@ from pos import *
 
 H =\
 """
-\\documentclass[preview,border=4mm,convert={density=600,outext=.png}]{standalone}
+\\documentclass[border=2mm,convert=true,convert={density=600,outext=.png}]{standalone}
 \\usepackage{tikz}
 \\usetikzlibrary{shapes,snakes}
 
